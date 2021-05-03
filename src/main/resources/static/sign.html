@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Medicine Stock</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="libs/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="libs/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav style="border-bottom:1px solid #333 ;">
+    <h6 class="float-left">Things Board</h6>
+    <button class="btn float-right my-1 mr-3" style="color: #fff;border-radius:20px;font-family: Calibri;"
+            onclick="location.href='login.html'"
+    >
+        <b>Logout<i class="fas fa-sign-out-alt ml-2"></i></b>
+    </button>
+
+</nav>
+<div class="wrapper py-4" style="margin:auto">
+   <!-- <div class="container-fluid">-->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 px-5">
+                <div class=""><h3 class="text-center font-weight-light my-4">Sign Up</h3></div>
+                <div class="card shadow-lg border-0 mt-4" style="border-radius: 50px;overflow: hidden;">
+                    <div class="card-body bg-theme text-light pt-5 px-4">
+                        <form>
+
+                            <div class="form-group">
+                                <label class="small mb-1" for="name">Name</label>
+                                <input class="form-control py-2" id="usrname" type="text" placeholder="Enter Username" />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="small mb-1" for="name">Username</label>
+                                <input class="form-control py-2" id="name" type="text" placeholder="Enter Username" />
+                            </div>
+                            <div class="form-group">
+                                <label class="small mb-1" for="password">Password</label>
+                                <input class="form-control py-2" id="password" type="password" placeholder="Enter password" />
+                            </div>
+                            <div class="form-group">
+                                <label class="small mb-1" for="email">Email</label>
+                                <input class="form-control py-2" id="email" type="email" placeholder="Enter email id" />
+                            </div>
+                            <!--<div class="form-group">
+                                <label class="small mb-1" for="ComName">Company Name</label>
+                                <input class="form-control py-2" id="ComName" type="text" placeholder="Enter Company Name" />
+                            </div>
+                            <div class="form-group">
+                                <label class="small mb-1" for="type">User type</label>
+                                <input class="form-control py-2" id="type" type="text" placeholder="Enter User Type" />
+                            </div>-->
+                            <!-- <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" id="rememberPasswordCheck" type="checkbox" />
+                                    <label class="custom-control-label" for="rememberPasswordCheck">Remember password</label>
+                                </div>
+                            </div> -->
+                            <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                <!--                                    <a class="small text-light" href="password.html">Forgot Password?</a>-->
+                                <a class="btn btn-outline-light px-4 py-2" id="login" href="javascript:getLogin();" >Sign Up</a>
+                            </div>
+                            <div class="text-center text-light mt-5" >
+                                <div class="small"><a href="userList.html" class="text-light" >Back to Activation</a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <!--</div>-->
+</div>y
+<script src="sign.js"></script>
+<script type="text/javascript" src="libs/toastify.js"></script>
+</body>
+
+</html>
